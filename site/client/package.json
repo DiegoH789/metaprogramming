@@ -1,0 +1,22 @@
+{
+  "name": "my_react_app",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://192.168.1.200:9000",
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.5",
+    "grommet":"^2.13.0", 
+    "grommet-icons":"^4.4.0", 
+    "styled-components":"^5.1.1",
+    "react-ace":"^9.0.0",
+    "ace-builds":"^1.4.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
